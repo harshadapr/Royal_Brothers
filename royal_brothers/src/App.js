@@ -1,6 +1,7 @@
 import './App.css';
 
 
+
 //clear everything before pushing and merging the codes on github
 
 function App() {
