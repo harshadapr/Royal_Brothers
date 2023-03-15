@@ -1,4 +1,5 @@
 import './App.css';
+import Payment from './Components/Pages/Payment';
 
 
 
@@ -7,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
+        <Payment />
     </div>
   );
 }
