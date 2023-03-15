@@ -10,75 +10,92 @@ import {
   Select,
 } from "@chakra-ui/react";
 
-export default function CardComp() {
+export default function CardComp({img,price,name}) {
   return (
-    <Card maxW="sm" boxShadow={"md"}>
+    <Card maxW="sm" boxShadow={"rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"} pb={0}>
+      <Flex p={'2px 10px'} gap={2} alignItems='center'>
+        <Image src="https://d36g7qg6pk2cm7.cloudfront.net/assets/zero-deposit-8bf3350f651efc75cb1e263459707c81cdd271347d2ba925cd2eb740243474d5.png" width={'20px'} h='20px'/>
+        <Text fontSize={'12px'} fontFamily={'Mulish'}>Zero Deposit</Text>
+      </Flex>
       <CardBody>
         <Text
           fontSize={"1rem"}
           mb="10px"
           fontWeight={"bold"}
           textAlign="center"
+          fontFamily={'Mulish'}
         >
-          Royal Enfield Classic 350 Reborn
+          {name}
         </Text>
         <Image
           h={"150px"}
-          w="300px"
-          src="https://imgd.aeplcdn.com/1280x720/bw/ec/26288/Royal-Enfield-Bullet-350-Twinspark-Side-86212.jpg?v=201711021421"
+          w="250px"
+          src={img}
           textAlign={"center"}
           m="0px auto"
           mb="10px"
         ></Image>
-        <Text textAlign={"center"} fontSize="14px">
+         <hr
+          style={{ height: "6px", backgroundColor: "#f6f6f6", border: "none" }}
+        />
+        <Text textAlign={"center"} fontSize="14px" fontFamily={'Mulish'}>
           Available at
         </Text>
         {/* Select */}
         <Select
           variant="flushed"
           placeholder="Location"
-          border={"none"}
+          borderBottom={'1px solid black'}
           mb="10px"
           fontSize="14px"
           size={"xs"}
+          fontFamily={'Mulish'}
         >
-          <option>Fully Available</option>
+          <option _hover={{backgroundColor:'grey'}} fontFamily={'Mulish'}>Fully Available</option>
           <option>Ranchi</option>
           <option>Raipur</option>
           <option>Kolkata</option>
           <option>Delhi</option>
         </Select>
+        <hr
+          style={{ height: "6px", backgroundColor: "#f6f6f6", border: "none" }}
+        />
         <Flex justify={"space-between"} mb="10px" mt={"20px"}>
           <Box>
-            <Text fontWeight={"bold"} fontSize="14px">
+            <Text fontWeight={"bold"} fontSize="14px" fontFamily={'Mulish'}>
               09:30 am
             </Text>
-            <Text fontSize="12px">15 Mar 2023</Text>
+            <Text fontSize="12px" fontFamily={'Mulish'}>15 Mar 2023</Text>
           </Box>
           <Box>
-            <Button bg="black" color={"white"} width="15px" borderRadius="50%" fontSize={'14px'}>
+            <Button bg="black" color={"white"} width="15px" borderRadius="50%" fontSize={'14px'} _hover={{
+          background: "black", 
+        }} fontFamily={'Mulish'}>
               to
             </Button>
           </Box>
           <Box>
-            <Text fontWeight={"bold"} fontSize="14px">
+            <Text fontWeight={"bold"} fontSize="14px" fontFamily={'Mulish'}>
               12:00 pm
             </Text>
-            <Text fontSize="12px">15 Mar 2023</Text>
+            <Text fontSize="12px" fontFamily={'Mulish'}>15 Mar 2023</Text>
           </Box>
         </Flex>
         <hr
-          style={{ height: "10px", backgroundColor: "#f6f6f6", border: "none" }}
+          style={{ height: "6px", backgroundColor: "#f6f6f6", border: "none" }}
         />
         <Flex justify={"space-between"} mt='10px'>
           <Box>
-            <Text fontWeight={"bold"} fontSize="14px" textAlign={"center"}>
-              ₹ 210
+            <Text fontWeight={"bold"} fontSize="14px" textAlign={"center"} fontFamily={'Mulish'}>
+              ₹ {price}
             </Text>
-            <Text fontSize="12px">(50 km included)</Text>
+            <Text fontSize="12px" fontFamily={'Mulish'}>(50 km included)</Text>
           </Box>
           <Box>
-            <Button bg={"#fed250"} width="150px">
+            <Button bg={"#fed250"} width="150px" _hover={{
+          background: "yellow.400",
+          boxShadow:'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'
+        }} fontFamily={'Mulish'}>
               Book
             </Button>
           </Box>

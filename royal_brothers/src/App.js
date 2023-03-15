@@ -1,4 +1,6 @@
 import './App.css';
+import Search from './Components/Search_page/Search';
+
 
 
 
@@ -7,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
+      <Search/>
     </div>
   );
 }
