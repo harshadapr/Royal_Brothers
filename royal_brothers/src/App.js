@@ -1,5 +1,7 @@
 import './App.css';
-import Sample from './components/Sample';
+import Blog from './components/Blog';
+
+import Check from './Pages/Check';
 
 
 //clear everything before pushing and merging the codes on github
@@ -7,7 +9,9 @@ import Sample from './components/Sample';
 function App() {
   return (
     <div className="App">
-      <Sample />
+      <Check />
+      {/* <Blog /> */}
+
     </div>
   );
 }
