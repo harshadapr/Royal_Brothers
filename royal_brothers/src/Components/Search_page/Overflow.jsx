@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 
 export default function Overflow() {
   const locationData = useSelector((store)=>store.searchReducer.cityData);
-  console.log(locationData[4].location);
-  const location = locationData[4].location
+  // console.log(locationData[4].location);
+  const location = (locationData[4] && locationData[4].location) || [];
   return (
     <Stack h={"100px"} overflow="auto" border={'1px solid #c1c1c1'}p="5px 0px">
       {location.map((ele) => {

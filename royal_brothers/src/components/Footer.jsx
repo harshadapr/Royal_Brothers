@@ -129,7 +129,7 @@ function Footer() {
                         src="https://d36g7qg6pk2cm7.cloudfront.net/assets/icons/like-b8b570f724101252e5c39d8bd66246607fb226e93e3ba17b0516209b20832345.png"
                         alt=""
                     />
-                    by team Royal Brothers
+                    by team Royal Brothers [without Harshada]
                 </p>
             </div>
 

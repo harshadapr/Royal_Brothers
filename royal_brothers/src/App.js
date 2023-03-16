@@ -1,11 +1,10 @@
 import './App.css';
 import Blogs from './Components/Blogs'
-import Footer from './components/Footer';
-import SinglePage from './components/SinglePage';
+import Footer from './Components/Footer';
 
 import Check from './Pages/Check';
 
-import Home from './components/Pages/Home';
+import Home from './Components/Pages/Home';
 import Payment from './Components/Pages/Payment'
 
 import Search from './Components/Search_page/Search'
