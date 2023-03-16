@@ -1,14 +1,12 @@
-import { Stack, Flex, Checkbox, Box, Divider } from "@chakra-ui/react";
-import React from "react";
-import { useSelector } from "react-redux";
+import React from 'react'
+import { Stack,Checkbox,Flex } from '@chakra-ui/react';
+import { useSelector } from 'react-redux';
 
-export default function Overflow() {
-  const locationData = useSelector((store)=>store.searchReducer.cityData);
-  console.log(locationData[4].location);
-  const location = locationData[4].location
+export default function BikeOptions() {
+    const data = useSelector((store)=> store.searchReducer.cityData)
   return (
     <Stack h={"100px"} overflow="auto" border={'1px solid #c1c1c1'}p="5px 0px">
-      {location.map((ele) => {
+      {data.map((ele) => {
         return (
           <Flex
             alignItems={"center"}
@@ -24,10 +22,10 @@ export default function Overflow() {
             fontWeight='light'
           >
             <Checkbox border={"grey"} bg={"white"} size={"sm"} ></Checkbox>
-            {ele}
+            {ele.model}
           </Flex>
         );
       })}
     </Stack>
-  );
+  )
 }
