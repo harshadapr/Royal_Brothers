@@ -19,9 +19,6 @@ import {Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-    <Search/>
-=======
 
       <Routes>
         <Route path='/' element={<Home />} />
@@ -33,8 +30,6 @@ function App() {
       </Routes>
 
       <Footer/>
-
->>>>>>> dda85600680ca90b5aaa9a8357cf2982c4e4fad5
     </div>
   );
 }
