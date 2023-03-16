@@ -1,5 +1,7 @@
 import './App.css';
 import Blog from './components/Blog';
+import Footer from './components/Footer';
+import SinglePage from './components/SinglePage';
 
 import Check from './Pages/Check';
 
@@ -9,9 +11,10 @@ import Check from './Pages/Check';
 function App() {
   return (
     <div className="App">
-      <Check />
+      {/* <Check /> */}
       {/* <Blog /> */}
-
+      {/* <SinglePage /> */}
+      <Footer />
     </div>
   );
 }

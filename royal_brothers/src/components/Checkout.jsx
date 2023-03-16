@@ -5,7 +5,7 @@ function Checkout() {
 
     return (
         <Card m="20px" w={500} p="10px" borderRadius="5px" h={'fit-content'} boxShadow="rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px" >
-            <CardHeader textAlign="center">
+            <CardHeader paddingBottom={"5px"}>
                 <Heading size='md'>CheckOut</Heading>
             </CardHeader>
             <Flex direction='column' align='center'>
@@ -14,15 +14,15 @@ function Checkout() {
                 </Box>
                 <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                     <Text>Booking Fees</Text>
-                    <Text> 2565.00 </Text>
+                    <Text>₹ 2565.00 </Text>
                 </Box>
                 <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                     <Text>CGST (14%) </Text>
-                    <Text>	359.10</Text>
+                    <Text>₹	359.10</Text>
                 </Box>
                 <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                     <Text>SGST  (14%) </Text>
-                    <Text>	359.10</Text>
+                    <Text>₹	359.10</Text>
                 </Box>
                 <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                     <Text>Refundable Deposit  </Text>
@@ -30,7 +30,7 @@ function Checkout() {
                 </Box>
                 <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                     <Text>Total Payable Amount   </Text>
-                    <Text>3283.20</Text>
+                    <Text>₹ 3283.20</Text>
                 </Box>
             </Flex>
             <CardFooter>
@@ -51,3 +51,6 @@ function Checkout() {
 // `
 
 export default Checkout;
+
+// #fed250
+// Eye Dropper

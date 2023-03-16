@@ -49,15 +49,15 @@ function Summary() {
                                 <Text pt="2" fontSize="sm">
                                     <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                                         <Text>Weekday - 70.5 hrs * rupee18.0/hr </Text>
-                                        <Text> 1269.0 </Text>
+                                        <Text>₹ 1269.0 </Text>
                                     </Box>
                                     <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                                         <Text>Weekend - 72 hrs * rupee18.0/hr </Text>
-                                        <Text> 1269.0 </Text>
+                                        <Text>₹ 1269.0 </Text>
                                     </Box>
                                     <Box my={4} display='flex' justifyContent='space-between' w='100%'>
                                         <Text>Total</Text>
-                                        <Text>2565</Text>
+                                        <Text>₹ 2565</Text>
                                     </Box>
 
                                     <Box my={4} display='flex' justifyContent='space-between' w='100%'>
