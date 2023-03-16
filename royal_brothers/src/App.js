@@ -1,5 +1,6 @@
 import './App.css';
-import Payment from './Components/Pages/Payment';
+
+import Home from './components/Pages/Home';
 
 
 
@@ -8,7 +9,8 @@ import Payment from './Components/Pages/Payment';
 function App() {
   return (
     <div className="App">
-        <Payment />
+      <Home />
+
     </div>
   );
 }
