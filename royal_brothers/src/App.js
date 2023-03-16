@@ -1,6 +1,6 @@
 import './App.css';
 
-import Home from './components/Pages/Home';
+import Home from './Components/Pages/Home'
 
 
 
