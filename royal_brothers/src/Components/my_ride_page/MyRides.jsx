@@ -156,7 +156,7 @@ function MyRides(props) {
             onClick={()=>{
                 setData(dataArr)
             }}
-            >ADD DATA</Button>
+            fontFamily={'Mulish'}>ADD DATA</Button>
             {
                 data.length>0 ? 
                 
@@ -164,7 +164,7 @@ function MyRides(props) {
                     <Box  w={'30%'}>
                        <MyRideFilter data={data}></MyRideFilter>
                     </Box>
-                    <Grid width={'70%'} Grid templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)','repeat(3, 1fr)']} gap={6}>
+                    <Grid width={'70%'} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(3, 1fr)']} gap={6}>
                    {
                     data.map((el)=>{
                         return  (<RideCard
@@ -190,9 +190,9 @@ function NoData(){
             shadow={'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}
             >
                 <CardBody>
-                    <Text>
+                    <Text  fontFamily={'Mulish'}>
                         No upcoming trips.
-                        <Link
+                        <Link  fontFamily={'Mulish'}
                         color={'yellow.400'}
                         >
                         Plan one now!
