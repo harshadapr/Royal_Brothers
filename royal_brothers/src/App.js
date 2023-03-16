@@ -5,8 +5,8 @@ import SinglePage from './components/SinglePage';
 
 import Check from './Pages/Check';
 
-import Home from './Components/Pages/Home';
-import Payment from './Components/Pages/Payment'
+import Home from './components/Pages/Home';
+import Payment from './components/Pages/Payment'
 
 import Search from './Components/Search_page/Search'
 
