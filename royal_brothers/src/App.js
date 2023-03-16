@@ -1,5 +1,12 @@
 import './App.css';
-import Search from './Components/Search_page/Search';
+
+import Blog from './components/Blog';
+import Footer from './components/Footer';
+import SinglePage from './components/SinglePage';
+
+import Check from './Pages/Check';
+
+import Home from './Components/Pages/Home'
 
 
 
@@ -9,7 +16,9 @@ import Search from './Components/Search_page/Search';
 function App() {
   return (
     <div className="App">
-      <Search/>
+
+      <Home />
+
     </div>
   );
 }
