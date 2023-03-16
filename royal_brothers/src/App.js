@@ -1,7 +1,7 @@
 import './App.css';
 import Blogs from './Components/Blogs'
-import Footer from './Components/Footer';
-import SinglePage from './Components/SinglePage';
+import Footer from './components/Footer';
+import SinglePage from './components/SinglePage';
 
 import Check from './Pages/Check';
 
