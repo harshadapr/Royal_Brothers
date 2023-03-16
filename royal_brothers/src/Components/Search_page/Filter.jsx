@@ -16,8 +16,11 @@ import React from "react";
 import { GrSearch } from "react-icons/gr";
 import Overflow from "./Overflow";
 import TagComp from "./TagComp";
+import { useSelector } from "react-redux";
+import BikeOptions from "./BikeOptions";
 
 export default function Filter() {
+  
   const handleFocusDate = (event) => {
     event.target.type = "date";
   };
@@ -224,7 +227,7 @@ export default function Filter() {
           </InputGroup>
         </Box>
         <Box>
-          <Overflow />
+          <BikeOptions />
         </Box>
       </Stack>
       <Box p={"10px"} boxShadow="md">
