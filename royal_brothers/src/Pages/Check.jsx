@@ -1,5 +1,5 @@
-import Checkout from '../components/Checkout';
-import Summary from '../components/Summary';
+import Checkout from '../Components/Checkout';
+import Summary from '../Components/Summary';
 
 function Check() {
     return (

@@ -31,7 +31,7 @@
 
 import { Card, CardBody, Divider, Grid, Heading, Image, SimpleGrid, Stack, Text } from '@chakra-ui/react'
 
-const Blog = () => {
+const Blogs = () => {
     const cardData = [
 
 
@@ -107,4 +107,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default Blogs

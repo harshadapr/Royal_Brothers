@@ -51,12 +51,12 @@ function Footer() {
                 <div className="followUs">
                     <h5>DOWNLOAD OUR APP</h5>
                     <hr style={{ marginTop: "5px" }} />
-                    <div>
-                        <img
+                    <div style={{display: "flex", flexDirection: "column", alignItems: "flex-start"}}>
+                        <img style={{width: "100%", maxWidth: "100px"}}
                             src="https://d36g7qg6pk2cm7.cloudfront.net/assets/icons/app_store-4407bc8ced0d52a50ff042ce51e32d51de3e11717955798ec54c6a28e7926c7c.png"
                             alt="App Store"
                         />
-                        <img
+                        <img style={{width: "100%", maxWidth: "100px"}}
                             src="https://d36g7qg6pk2cm7.cloudfront.net/assets/icons/play_store-057f9061b4cd0fd4953a485569c15e63fdf8d89b0bcc025c04cfb34d9e8cd571.png"
                             alt="Play Store"
                         />
